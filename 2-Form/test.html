@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация формы</title>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <p>Уже есть аккаунт?</p>
+    <button type="submit">Войти</button>
+    <form action="#" method="post">
+        <div>   
+            <input type="text" id="descr_company" name="descr_company" min="10" max="20" required placeholder="Моя компания">
+        </div>
+
+        <div>
+            <input type="text" id="name" name="name" min="10" max="20" placeholder="name" required>
+            <input type="text" id="name" name="name" min="10" max="20" placeholder="familiy" required>
+        </div>
+        <div>
+           <input type="email" id="email" name="email" required placeholder="email" /> 
+        </div>
+        <button type="submit">Зарегистрироваться</button>
+        <div>
+            <input type="checkbox" name="accept_the_condition" id="accept_the_condition" required>
+            <label for="accept_the_condition">Я прочитал и принимаю. Условия использования</label>
+            
+        </div>
+
+
+    </form>
+</body>
+</html>
