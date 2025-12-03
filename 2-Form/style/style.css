@@ -5,11 +5,11 @@ h1 {
     font-size: 36px;
     line-height: 100%;
 }
-p {
+.descr__text {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 18px;
-    color: #666666;
+    color: black;
     line-height: 100%;
 }
 a {
