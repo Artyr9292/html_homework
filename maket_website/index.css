@@ -1,0 +1,54 @@
+body {
+    background-color: #2F3948;
+    font-family: 'Roboto';
+}
+.descr__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #969BA4;
+}
+.descr__info {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.img__title {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.name__info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.direction__name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #5F86AD;
+}
+.text__section {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.text__section2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-style: italic;
+}
+.author__footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5279A0;
+}
+
+
