@@ -4,6 +4,36 @@ h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 100%;
+    text-align: center;
+}
+a {
+    font-family: 'Open Sans';
+    color: #089FE0;
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 100%;
+}
+.form__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form__inner div {
+   
+}
+.form__inner-title div{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+#descr_company, #email {
+    width: 400px;
+   
+}
+#form_descr {
+    text-align: center;
+    margin-bottom: 46px;
 }
 .descr__text {
     font-family: 'Open Sans';
@@ -12,14 +42,7 @@ h1 {
     color: black;
     line-height: 100%;
 }
-a {
-    font-family: 'Open Sans';
-    color: #089FE0;
-    text-decoration: underline;
-    font-size: 18px;
-    line-height: 100%;
 
-}
 #descr_company {
     font-family: 'Open Sans';
     font-weight: 600;

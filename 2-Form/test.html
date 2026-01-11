@@ -13,13 +13,14 @@
     <a href="#">Войти</a> 
     </div>
     <form action="#" method="post">
+      <div class="form__inner">
         <div>   
             <input type="text" id="descr_company" name="descr_company" min="10" max="20" required placeholder="Моя компания">
         </div>
 
-        <div>
-            <input type="text" id="name" name="name" min="10" max="20" placeholder="name" required>
-            <input type="text" id="name2" name="name" min="10" max="20" placeholder="familiy" required>
+        <div class="form__inner-title">
+               <input type="text" id="name" name="name" min="10" max="20" placeholder="name" required>
+              <input type="text" id="name2" name="name" min="10" max="20" placeholder="familiy" required>               
         </div>
         <div>
            <input type="email" id="email" name="email" required placeholder="email" /> 
@@ -30,8 +31,8 @@
             <label for="accept_the_condition" id="accept_the_condition">Я прочитал и принимаю. <span>Условия использования</span></label>
             
         </div>
-
-
+      </div>
+ 
     </form>
 </body>
 </html>
