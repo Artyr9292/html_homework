@@ -19,9 +19,7 @@ a {
     align-items: center;
     flex-direction: column;
 }
-.form__inner div {
-   
-}
+
 .form__inner-title div{
     display: flex;
     justify-content: center;
@@ -49,6 +47,9 @@ a {
     font-size: 16px;
     line-height: 100%;
     color: #333333;
+    padding: 5px 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
 }
 #name, #name2, #email {
     font-family: 'Open Sans';
@@ -56,6 +57,9 @@ a {
     font-size: 16px;
     line-height: 100%;
     color: #999999;
+    padding: 5px 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
 }
 button {
     font-family: 'Open Sans';
@@ -65,6 +69,8 @@ button {
     background-color: #089FE0;
     color: #ffffff;
     text-align: center;
+    padding: 10px 40px;
+    margin-bottom: 20px;
 }
 #accept_the_condition {
     font-family: 'Open Sans';
